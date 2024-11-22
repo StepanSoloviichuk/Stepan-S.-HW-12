@@ -1,0 +1,67 @@
+project/
+├── index.html
+├── pages/
+│   ├── contact.html
+│   ├── gallery.html
+├── photo/
+│   ├── me.jpg
+│   ├── cat1.jpg
+│   ├── cat2.jpg
+├── css/
+    ├── style.css
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+#main-title {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+}
+
+.profile-photo {
+    display: block;
+    margin: 20px auto;
+    border-radius: 50%;
+    border: 5px solid #ccc;
+}
+
+.description {
+    text-align: center;
+    font-size: 18px;
+    color: #666;
+    margin: 10px 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+#contact-title {
+    text-align: center;
+    color: #444;
+}
+
+#contact-description {
+    text-align: center;
+    color: #555;
+}
