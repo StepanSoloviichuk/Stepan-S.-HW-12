@@ -15,10 +15,9 @@ project/
     <title>Про мене</title>
 </head>
 <body>
-    <h1>Привіт! Я Степан Соловійчук</h1>
-    <img src="photo/me.jpg" alt="Фото Степана" width="300">
-    <p>Я люблю QA, а також своїх двох чудових кішок!</p>
-    <p>Цей сайт створено для домашнього завдання.</p>
+<h1 id="main-title">Привіт! Я Степан Соловійчук</h1>
+<img class="profile-photo" src="photo/me.jpg" alt="Фото Степана" width="300">
+<p class="description">Я люблю QA, а також своїх двох чудових кішок!</p>
     <nav>
         <ul>
             <li><a href="pages/contact.html">Контакти</a></li>
@@ -35,7 +34,9 @@ project/
     <title>Контакти</title>
 </head>
 <body>
-    <h1>Контакти</h1>
+<h1 id="contact-title">Контакти</h1>
+<p id="contact-description">Моє ім'я: Степан Соловійчук</p>
+
     <p>Моє ім'я: Степан Соловійчук</p>
     <p>Email: <a href="mailto:vapr.54@ukr.net">vapr.54@ukr.net</a></p>
     <a href="../index.html">На головну</a>
@@ -49,7 +50,11 @@ project/
     <title>Галерея</title>
 </head>
 <body>
-    <h1>Галерея</h1>
+<h1 id="gallery-title">Галерея</h1>
+<div class="gallery">
+    <img src="../photo/cat1.jpg" alt="Кішка 1" class="gallery-photo">
+    <img src="../photo/cat2.jpg" alt="Кішка 2" class="gallery-photo">
+</div>
     <img src="../photo/cat1.jpg" alt="Кішка 1" width="300">
     <img src="../photo/cat2.jpg" alt="Кішка 2" width="300">
     <a href="../index.html">На головну</a>
